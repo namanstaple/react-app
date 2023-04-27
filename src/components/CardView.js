@@ -1,0 +1,17 @@
+import React from 'react'
+
+export default function CardView(props) {
+  return (
+    <>
+        <div className="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay={props.delay}>
+            <div className="card">
+                <div className="card-img">
+                    <img src={props.src} alt="" className="img-fluid"/>
+                </div>
+                <h3><a href="service-details.html" className="stretched-link">{[props.title]}</a></h3>
+                <p>{props.description}</p>
+            </div>
+        </div>
+    </>
+  )
+}
