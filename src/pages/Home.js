@@ -7,12 +7,12 @@ import Feature from '../components/Feature'
 import Pricing from '../components/Pricing'
 import Testimonial from '../components/Testimonial'
 import Faq from '../components/Faq'
-import Banner from '../components/Banner'
+import HeroScreen from '../components/HeroScreen'
 
 export default function Home() {
   return (
     <>
-        <Banner/>
+        <HeroScreen/>
         <main id="main">
 
           <HomeComponent/>

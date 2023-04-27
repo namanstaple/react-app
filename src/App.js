@@ -9,7 +9,6 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Footer from './layout/Footer';
-import Banner from './components/Banner';
 import About from './pages/About';
 import Services from './pages/Services';
 import Pricing from './pages/Pricing';
