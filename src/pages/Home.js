@@ -18,7 +18,7 @@ export default function Home() {
           <HomeComponent/>
           <About/>
           <Services/>
-          <Cta/>
+          <Cta title={'Call To Action'} text={'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'} url={'#'} btnText={'Call To Action Submit'}/>
           <Feature/>
           <Pricing/>
           <Testimonial/>

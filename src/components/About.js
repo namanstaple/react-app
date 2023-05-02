@@ -17,11 +17,11 @@ export default function About() {
                             </p>
                             <ul>
                                 <li>
-                                <i className="bi bi-diagram-3"></i>
-                                <div>
-                                    <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                                    <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
-                                </div>
+                                    <i className="bi bi-diagram-3"></i>
+                                    <div>
+                                        <h5>Ullamco laboris nisi ut aliquip consequat</h5>
+                                        <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                                    </div>
                                 </li>
                                 <li>
                                     <i className="bi bi-fullscreen-exit"></i>
