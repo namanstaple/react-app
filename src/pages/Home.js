@@ -46,15 +46,15 @@ export default function Home() {
 		  			<Feature features={Config.featureItems}/>
 				</div>
 			</section>
-          <section id="pricing" className="pricing pt-0">
-            <div className="container" data-aos="fade-up">
-                <div className="section-header">
-                    <span>Pricing</span>
-                    <h2>Pricing</h2>
-                </div>
-                  <Pricing prices={Config.pricePackage}/>
-              </div>
-          </section>
+			<section id="pricing" className="pricing pt-0">
+				<div className="container" data-aos="fade-up">
+					<div className="section-header">
+						<span>Pricing</span>
+						<h2>Pricing</h2>
+					</div>
+					<Pricing prices={Config.pricePackage}/>
+				</div>
+			</section>
           <Testimonial/>
           <Faq/>
         </main>
